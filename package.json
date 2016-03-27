@@ -1,0 +1,26 @@
+{
+    "name": "x15-hash",
+    "version": "0.0.1",
+    "main": "x15hash",
+    "author": {
+        "name": "Felix Ugoji",
+        "email": "dev@kobocoin.com"
+    },
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/kobocoin/node-x15-hash.git"
+    },
+    "dependencies" : {
+        "bindings" : "*"
+    },
+    "keywords": [
+        "x15",
+        "kobocoin",
+        "xcoin",
+        "kobo",
+        "hash",
+        "256",
+        "crypto",
+        "cryptocurrency"
+    ]
+}
