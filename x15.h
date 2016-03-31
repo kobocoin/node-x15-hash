@@ -5,7 +5,7 @@
 extern "C" {
 #endif
 
-void x15-hash(const char* input, char* output);
+void x15hash(const char* input, char* output);
 
 #ifdef __cplusplus
 }

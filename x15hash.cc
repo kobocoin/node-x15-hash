@@ -27,7 +27,7 @@ Handle<Value> Digest(const Arguments& args) {
     char * input = Buffer::Data(target);
     char * output = new char[32];
 
-    xcoin_hash(input, output);
+    x15hash(input, output);
 
     Buffer* buff = Buffer::New(output, 32);
     return scope.Close(buff->handle_);
